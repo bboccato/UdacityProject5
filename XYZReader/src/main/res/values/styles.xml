@@ -17,8 +17,12 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="AppTheme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- AppCompat Attributes -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
 </resources>
